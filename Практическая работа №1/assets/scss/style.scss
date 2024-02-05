@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: ClashDisplay;
+    src: url(../fonts/ClashDisplay-Regular.ttf);
+}
+
+// Шапка
+.header{
+    width: 1440px;
+    height: 132px;
+    margin: 0 auto;
+    &__inner__img{
+        width: 1384px;
+        display: flex;
+        justify-content: space-between; 
+        margin: 26px 0 0 26px;    
+        .rer{
+            width: 48px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    nav{
+        width: 675px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 0 383px;
+        a{
+            text-decoration: none;
+            font-family: Satoshi;
+        }
+    }
+    hr{
+        width: 1386px;
+        margin: 44px 0 0 28px;
+        border: 1px solid #0000001A;
+    }
+}
+
+// Баннер
+.banner{
+    width: 1280px;
+    height: 584px;
+    margin: 0 auto;
+    background-color: #2A254B;
+    display: flex;
+    &_item{
+        width: 760px;
+        height: 584px;
+        p:nth-of-type(1){
+            width: 513px;
+            font-size: 32px;
+            font-weight: 400;
+            color: #fff;
+            padding: 60px 0 0 60px;
+            font-family: ClashDisplay;
+        }
+        p:nth-of-type(2){
+            width: 602px;
+            height: 81px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #fff;
+            margin: 196px 0 0 60px;
+            font-family: Satoshi;
+        }
+        &_but{
+            background-color: #F9F9F926;
+            width: 170px;
+            height: 56px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 41px 0 0 60px;
+            border: none;
+            font-family: Satoshi;
+        }
+        }
+}
+
+// Оссобенности
+.menu{
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 1440px;
+    height: 355px;
+    &_title{
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 51px;
+        color: #2A254B;
+        font-family: ClashDisplay;
+    }
+    &_item{
+        display: flex;
+        &_delivery{
+            width: 270px;
+            height: 124px;
+            margin: 0 59px 0 86px;
+            img:nth-of-type(1){
+                margin-bottom: 16px;
+            }
+            p:nth-of-type(1){
+                margin-bottom: 8px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-weight: 400;
+                font-size: 16px;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_check{
+            width: 266px;
+            height: 124px;
+            margin-right: 58px;
+            img:nth-of-type(1){
+                margin-bottom: 16px;
+            }
+            p:nth-of-type(1){
+                margin-bottom: 8px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-weight: 400;
+                font-size: 16px;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_card{
+            width: 235px;
+            height: 124px;
+            margin-right: 91px;
+            img:nth-of-type(1){
+                margin-bottom: 16px;
+            }
+            p:nth-of-type(1){
+                margin-bottom: 8px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-weight: 400;
+                font-size: 16px;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_eco{
+            width: 265px;
+            height: 124px;
+            img:nth-of-type(1){
+                margin-bottom: 16px;
+            }
+            p:nth-of-type(1){
+                margin-bottom: 8px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+            p:nth-of-type(2){
+                font-weight: 400;
+                font-size: 16px;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+    }
+}
+
+// Карточки с товарами
+.cards{
+    margin: 0 auto;
+    width: 1440px;
+    height: 761px;
+    &_title{
+        font-size: 32px;
+        font-weight: 400;
+        color: #2A254B;
+        margin: 0 0 33px 80px;
+        font-family: ClashDisplay;
+    }
+    &_item{
+        display: flex;
+        &_chair{
+            margin: 0 20px 0 80px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_vase{
+            margin-right: 20px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_vase2{
+            margin-right: 20px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_lamp{
+            margin-right: 20px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+    }
+    &_but{
+        button:nth-of-type(1){
+        margin: 35px 0 0 635px;
+        width: 179px;
+        height: 56px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #2A254B;
+        background-color: #F9F9F9;
+        border: none;
+        font-family: Satoshi;
+        }
+    }
+}
+
+// Ещё карточки
+.picture{
+    margin: 0 auto;
+    width: 1440px;
+    height: 744px;
+    &_title{
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0 0 25px 80px;
+        color: #2A254B;
+        font-family: ClashDisplay;
+    }
+    &_item{
+        display: flex;
+        &_Large{
+            margin-left: 80px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_chair{
+            margin-left: 20px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+        &_chair6{
+            margin-left: 20px;
+            p:nth-of-type(1){
+                margin: 24px 0 8px 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 18px;
+                font-weight: 400;
+                color: #2A254B;
+                font-family: Satoshi;
+            }
+        }
+    }
+    &_but{
+        button:nth-of-type(1){
+        margin: 35px 0 0 635px;
+        width: 179px;
+        height: 56px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #2A254B;
+        background-color: #F9F9F9;
+        border: none;
+        font-family: Satoshi;
+        }
+    }
+}
+
+// Поиск
+.search{
+    margin: 0 auto;
+    width: 1440px;
+    height: 481px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 0 0 0 93px;
+    &_item{
+        width: 1273px;
+        height: 364px;
+        background-color: white;
+        &_text{
+            padding: 68px 351px 0 351px;
+            p{
+                color: #2A254B;
+                font-weight: 400;
+                text-align: center; 
+            }
+            p:nth-of-type(1){
+                font-size: 36px;
+                font-family: ClashDisplay;
+            }
+            p:nth-of-type(2){
+                font-size: 24px;
+                font-family: Satoshi;
+                margin-top: 16px;
+            }
+        }
+        &_elem{
+            display: flex;
+            width: 472px;
+            height: 56px;
+            margin: 72px 0 0 400px;
+            input{
+                width: 354px;
+                height: 56px;
+                background-color: #F9F9F9;
+                padding: 17px 0 17px 32px;
+                border: none;
+            }
+            input::placeholder{
+                font-weight: 400;
+                font-size: 16px;
+                font-family: Satoshi;
+                color: #2A254B;
+                opacity: 20%;
+            }
+            button{
+                width: 118px;
+                height: 56px;
+                background-color: #2A254B;
+                font-family: Satoshi;
+                font-weight: 400;
+                font-size: 16px;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+}
+
+// Второй баннер
+.sofa{
+    margin: 0 auto;
+    width: 1440px;
+    height: 603px;
+    display: flex;
+    &_item{
+        width: 720px;
+        height: 603px;
+        &_text{
+            margin: 72px 100px 0 84px;
+            width: 536px;
+            height: 225px;
+            font-weight: 400;
+            p:nth-of-type(1){
+                font-size: 24px;
+                font-family: ClashDisplay;
+                color: #2A254B;
+                margin-bottom: 25px;
+            }
+            p:nth-of-type(2){
+                font-family: Satoshi;
+                color: #505977;
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+            p:nth-of-type(3){
+                font-family: Satoshi;
+                color: #505977;
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+        }
+        button{
+            margin: 196px 486px 0 84px;
+            width: 150px;
+            height: 56px;
+            background-color: #F9F9F9;
+            color: #2A254B;
+            font-weight: 400;
+            font-size: 16px;
+            font-family: Satoshi;
+            border: none;
+        }
+    }
+}
+
+// Подвал
+.footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 380px;
+    background-color: #2A254B;
+    color: #fff;
+    font-weight: 400;
+    font-family: Satoshi;
+    font-size: 14px;
+    &_item{
+        display: flex;
+        p{
+            margin-bottom: 12px;
+        }
+        &_textOne{
+            width: 108px;
+            height: 175px;
+            margin: 58px 109px 0 82px;
+            p:nth-of-type(1){
+                font-size: 16px;
+                font-family: ClashDisplay;
+            }
+        }
+        &_textTwo{
+            width: 84px;
+            height: 206px;
+            margin: 58px 133px 0 0;
+            p:nth-of-type(1){
+                font-size: 16px;
+                font-family: ClashDisplay;
+            }
+        }
+        &_textThree{
+            width: 105px;
+            height: 175px;
+            margin: 58px 109px 0 0;
+            p:nth-of-type(1){
+                font-size: 16px;
+                font-family: ClashDisplay;
+            }
+        }
+        &_elem{
+            p{
+                font-size: 16px;
+                font-family: ClashDisplay;
+                margin: 58px 568px 16px 0;
+            }
+            input{
+                width: 509px;
+                height: 56px;
+                background-color: #FFFFFF26;
+                padding: 17px 0 17px 32px;
+                border: none;
+            }
+            input::placeholder{
+                font-weight: 400;
+                font-size: 16px;
+                font-family: Satoshi;
+                color: #fff;
+            }
+            button{
+                width: 118px;
+                height: 56px;
+                background-color: #fff;
+                font-family: Satoshi;
+                font-weight: 400;
+                font-size: 16px;
+                color: #2A254B;
+                border: none;
+            }
+        }
+    }
+    hr{
+        width: 1277px;
+        border: 1px solid #4E4D93;
+        margin: 48px 0 24px 80px;
+    }
+    &_inner{
+        display: flex;
+        p{
+            margin: 0 849px 0 80px;
+        }
+        img{
+            margin-right: 27px;
+        }
+    }
+}

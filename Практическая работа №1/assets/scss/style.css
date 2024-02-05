@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../fonts/Satoshi-Regular.ttf);
+}
+@font-face {
+  font-family: ClashDisplay;
+  src: url(../fonts/ClashDisplay-Regular.ttf);
+}
+.header {
+  width: 1440px;
+  height: 132px;
+  margin: 0 auto;
+}
+.header__inner__img {
+  width: 1384px;
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0 0 26px;
+}
+.header__inner__img .rer {
+  width: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.header nav {
+  width: 675px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 383px;
+}
+.header nav a {
+  text-decoration: none;
+  font-family: Satoshi;
+}
+.header hr {
+  width: 1386px;
+  margin: 44px 0 0 28px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+
+.banner {
+  width: 1280px;
+  height: 584px;
+  margin: 0 auto;
+  background-color: #2A254B;
+  display: flex;
+}
+.banner_item {
+  width: 760px;
+  height: 584px;
+}
+.banner_item p:nth-of-type(1) {
+  width: 513px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding: 60px 0 0 60px;
+  font-family: ClashDisplay;
+}
+.banner_item p:nth-of-type(2) {
+  width: 602px;
+  height: 81px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin: 196px 0 0 60px;
+  font-family: Satoshi;
+}
+.banner_item_but {
+  background-color: rgba(249, 249, 249, 0.1490196078);
+  width: 170px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 41px 0 0 60px;
+  border: none;
+  font-family: Satoshi;
+}
+
+.menu {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 1440px;
+  height: 355px;
+}
+.menu_title {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 51px;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.menu_item {
+  display: flex;
+}
+.menu_item_delivery {
+  width: 270px;
+  height: 124px;
+  margin: 0 59px 0 86px;
+}
+.menu_item_delivery img:nth-of-type(1) {
+  margin-bottom: 16px;
+}
+.menu_item_delivery p:nth-of-type(1) {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.menu_item_delivery p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.menu_item_check {
+  width: 266px;
+  height: 124px;
+  margin-right: 58px;
+}
+.menu_item_check img:nth-of-type(1) {
+  margin-bottom: 16px;
+}
+.menu_item_check p:nth-of-type(1) {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.menu_item_check p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.menu_item_card {
+  width: 235px;
+  height: 124px;
+  margin-right: 91px;
+}
+.menu_item_card img:nth-of-type(1) {
+  margin-bottom: 16px;
+}
+.menu_item_card p:nth-of-type(1) {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.menu_item_card p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.menu_item_eco {
+  width: 265px;
+  height: 124px;
+}
+.menu_item_eco img:nth-of-type(1) {
+  margin-bottom: 16px;
+}
+.menu_item_eco p:nth-of-type(1) {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.menu_item_eco p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+
+.cards {
+  margin: 0 auto;
+  width: 1440px;
+  height: 761px;
+}
+.cards_title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #2A254B;
+  margin: 0 0 33px 80px;
+  font-family: ClashDisplay;
+}
+.cards_item {
+  display: flex;
+}
+.cards_item_chair {
+  margin: 0 20px 0 80px;
+}
+.cards_item_chair p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.cards_item_chair p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.cards_item_vase {
+  margin-right: 20px;
+}
+.cards_item_vase p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.cards_item_vase p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.cards_item_vase2 {
+  margin-right: 20px;
+}
+.cards_item_vase2 p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.cards_item_vase2 p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.cards_item_lamp {
+  margin-right: 20px;
+}
+.cards_item_lamp p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.cards_item_lamp p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.cards_but button:nth-of-type(1) {
+  margin: 35px 0 0 635px;
+  width: 179px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  background-color: #F9F9F9;
+  border: none;
+  font-family: Satoshi;
+}
+
+.picture {
+  margin: 0 auto;
+  width: 1440px;
+  height: 744px;
+}
+.picture_title {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 25px 80px;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.picture_item {
+  display: flex;
+}
+.picture_item_Large {
+  margin-left: 80px;
+}
+.picture_item_Large p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.picture_item_Large p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.picture_item_chair {
+  margin-left: 20px;
+}
+.picture_item_chair p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.picture_item_chair p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.picture_item_chair6 {
+  margin-left: 20px;
+}
+.picture_item_chair6 p:nth-of-type(1) {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: ClashDisplay;
+}
+.picture_item_chair6 p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2A254B;
+  font-family: Satoshi;
+}
+.picture_but button:nth-of-type(1) {
+  margin: 35px 0 0 635px;
+  width: 179px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  background-color: #F9F9F9;
+  border: none;
+  font-family: Satoshi;
+}
+
+.search {
+  margin: 0 auto;
+  width: 1440px;
+  height: 481px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 0 0 0 93px;
+}
+.search_item {
+  width: 1273px;
+  height: 364px;
+  background-color: white;
+}
+.search_item_text {
+  padding: 68px 351px 0 351px;
+}
+.search_item_text p {
+  color: #2A254B;
+  font-weight: 400;
+  text-align: center;
+}
+.search_item_text p:nth-of-type(1) {
+  font-size: 36px;
+  font-family: ClashDisplay;
+}
+.search_item_text p:nth-of-type(2) {
+  font-size: 24px;
+  font-family: Satoshi;
+  margin-top: 16px;
+}
+.search_item_elem {
+  display: flex;
+  width: 472px;
+  height: 56px;
+  margin: 72px 0 0 400px;
+}
+.search_item_elem input {
+  width: 354px;
+  height: 56px;
+  background-color: #F9F9F9;
+  padding: 17px 0 17px 32px;
+  border: none;
+}
+.search_item_elem input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Satoshi;
+  color: #2A254B;
+  opacity: 20%;
+}
+.search_item_elem input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Satoshi;
+  color: #2A254B;
+  opacity: 20%;
+}
+.search_item_elem button {
+  width: 118px;
+  height: 56px;
+  background-color: #2A254B;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+
+.sofa {
+  margin: 0 auto;
+  width: 1440px;
+  height: 603px;
+  display: flex;
+}
+.sofa_item {
+  width: 720px;
+  height: 603px;
+}
+.sofa_item_text {
+  margin: 72px 100px 0 84px;
+  width: 536px;
+  height: 225px;
+  font-weight: 400;
+}
+.sofa_item_text p:nth-of-type(1) {
+  font-size: 24px;
+  font-family: ClashDisplay;
+  color: #2A254B;
+  margin-bottom: 25px;
+}
+.sofa_item_text p:nth-of-type(2) {
+  font-family: Satoshi;
+  color: #505977;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.sofa_item_text p:nth-of-type(3) {
+  font-family: Satoshi;
+  color: #505977;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.sofa_item button {
+  margin: 196px 486px 0 84px;
+  width: 150px;
+  height: 56px;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Satoshi;
+  border: none;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 1440px;
+  height: 380px;
+  background-color: #2A254B;
+  color: #fff;
+  font-weight: 400;
+  font-family: Satoshi;
+  font-size: 14px;
+}
+.footer_item {
+  display: flex;
+}
+.footer_item p {
+  margin-bottom: 12px;
+}
+.footer_item_textOne {
+  width: 108px;
+  height: 175px;
+  margin: 58px 109px 0 82px;
+}
+.footer_item_textOne p:nth-of-type(1) {
+  font-size: 16px;
+  font-family: ClashDisplay;
+}
+.footer_item_textTwo {
+  width: 84px;
+  height: 206px;
+  margin: 58px 133px 0 0;
+}
+.footer_item_textTwo p:nth-of-type(1) {
+  font-size: 16px;
+  font-family: ClashDisplay;
+}
+.footer_item_textThree {
+  width: 105px;
+  height: 175px;
+  margin: 58px 109px 0 0;
+}
+.footer_item_textThree p:nth-of-type(1) {
+  font-size: 16px;
+  font-family: ClashDisplay;
+}
+.footer_item_elem p {
+  font-size: 16px;
+  font-family: ClashDisplay;
+  margin: 58px 568px 16px 0;
+}
+.footer_item_elem input {
+  width: 509px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  padding: 17px 0 17px 32px;
+  border: none;
+}
+.footer_item_elem input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Satoshi;
+  color: #fff;
+}
+.footer_item_elem input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Satoshi;
+  color: #fff;
+}
+.footer_item_elem button {
+  width: 118px;
+  height: 56px;
+  background-color: #fff;
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A254B;
+  border: none;
+}
+.footer hr {
+  width: 1277px;
+  border: 1px solid #4E4D93;
+  margin: 48px 0 24px 80px;
+}
+.footer_inner {
+  display: flex;
+}
+.footer_inner p {
+  margin: 0 849px 0 80px;
+}
+.footer_inner img {
+  margin-right: 27px;
+}/*# sourceMappingURL=style.css.map */
